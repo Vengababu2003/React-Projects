@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bg-container{
+  background-color: aquamarine;
+  padding: 15px;
+}
+.title{
+  color: "Red";
+  font-size: 28px;
+  text-decoration: underline;
+  color: rgb(209, 85, 18);
+}
+.data1{
+  padding-right: 15px;
+}
+.data2{
+  padding-right: 28px;
+}
+.data3{
+  padding-right: 35px;
+}
+.labels{
+  text-align: "center";
+   margin-top: 20px;
+}
+
+table{
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border-color: rgb(142, 24, 24);
+}
+
+.tabel_top_margin{
+  margin-top: 30px;
+}
+
+.button{
+  border-color: black;
+  color:rgb(12, 107, 36);
+}
+
+.reset-button{
+  margin-left: 10px;
+  color: rgb(148, 41, 41);
+  width: 140px;
+}

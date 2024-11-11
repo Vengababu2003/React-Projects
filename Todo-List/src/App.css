@@ -1,0 +1,57 @@
+#root {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-container{
+  background-color: grey;
+  border-radius: 20px;
+  width: 700px;
+  display: flex;
+  
+}
+.data{
+  background-color: rgb(216, 224, 232);
+  height: 120px;
+  width: 600px;
+  list-style-type: none;
+  
+  
+}
+.checkbox{
+  width: 25px;
+  height: 35px;
+  float: left;
+}
+
+.Delete_Button{
+  background-color: red;
+  float: right;
+  margin-right: 10px;
+  
+  
+  
+}
+.Edit_Button{
+  background-color: rgb(39, 192, 98);
+  float: right;
+  margin-right: 10px;
+}
+
+#overlay {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+  cursor: pointer; 
+  
+}

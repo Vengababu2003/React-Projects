@@ -1,0 +1,48 @@
+.TopLayer{
+  background-color: aqua;
+  color: black;
+  height: 15vh;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.Heading{
+  width: 700px;
+  background-color: blueviolet;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+}
+.icon{
+  height: 30px;
+  width:30px;
+  padding-left: 10px;
+}
+
+.navbar-items-alignment{
+  text-align: right;
+}
+
+.footer{
+  background-color: aqua;
+}
+
+#overlay {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 500px; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 180px;
+  left: 10;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(236, 201, 232, 0.5); /* Black background with opacity */
+  z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer ; /* Add a pointer on hover */
+}
