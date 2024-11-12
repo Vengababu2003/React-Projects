@@ -25,7 +25,7 @@ const Login = () => {
 				type='password'
 				value={password}
 				onChange={(e) => setPassword(e.target.value)}
-				placeholder='Please Enter Password'
+				placeholder='Please Enter Password here'
 				style={{ fontSize: '20px' }}
 			/>{' '}
 			<button onClick={handleSubmit} style={{ border: '2px', outline: '2px' }}>
